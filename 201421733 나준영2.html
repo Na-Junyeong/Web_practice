@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head><title>201421733 나준영</title>
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|Noto+Sans+KR|Stylish|Yeon+Sung&display=swap" rel="stylesheet">
+<style>
+	html, body { padding: 1px; height: 100%; background: #ffffff;}
+	.header { width: 500px; height:200px; margin: 00px 100px 0px 0px; 
+		background:#ffffff; text-align: center; } 
+	.section { width: 500px; height:180px; float: center; text-align:center;
+		background: #ffffff; line-height : 200% }
+	.footer { width: 500px; height:100px; float: center;  background: #ffffff;  }
+	#wrapper { max-width: 500px; margin: 0 auto;}
+	input.img-button { 
+	background: url( "http://bmungu.co.kr/web/product/medium/emungu1_1550.jpg" ) no-repeat;
+	border: none; width: 220px; height: 50px; cursor: WAIT; 
+	font-size: 30px; color: white;}
+	ul.login li{ list-style:none; max-width:500px; position:relative;top:20px;left:70px;
+		display: inline-block; align: right; padding :3px; border-right:2px solid #f6f6f6;}
+	a.a { text-decoration:none }
+	form.a { position:relative; left:250px; }
+	hr { height : 5px; border : white; background-color :#f6f6f9}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<header class="header">
+
+	<form class="a">
+		<select name="language">
+				<option value="1">한국어</option>
+				<option value="2">Eglish</option>
+				<option value="3">中文</option>
+				<option value="3">日本語</option>
+		</select>
+	</form>
+<br>
+<p>
+	<a href="https://www.naver.com/" target="_blank">
+	<img src="https://logoproject.naver.com/download/NAVER_Logo.jpg" width="280px" height="50px"> 	</a>
+</p>
+<br>
+</header>
+<section class="section">
+	<form name="fo" method="get">
+		<input type="text" size="25" maxlength="6" placeholder="아이디">
+		<br>
+		<input type="password" size="25" maxlength="12" placeholder="비밀번호">
+		<br>
+		<br>
+		<input type="button" class="img-button" value="로그인" >
+	</form>
+<br>
+<hr>
+</section>
+
+<footer class="footer">
+	<ul class="login">
+	<li><a href="https://nid.naver.com/user2/V2Join.nhn?m=agree&lang=ko_KR&cpno="  class="a" onClick="window.open(this.href, '', 'width=1200, height=1000'); return false;">회원가입</a></li>
+	<li><a href="https://nid.naver.com/user2/help/idInquiry.nhn?menu=idinquiry" class="a" onClick="window.open(this.href, '', 'width=1200, height=1000'); return false;">아이디 찾기</a></li>
+	<li><a href="https://nid.naver.com/user2/help/pwInquiry.nhn?menu=pwinquiry"  class="a" onClick="window.open(this.href, '', 'width=1200, height=1000'); return false;">비밀번호 찾기</a></li>
+	</ul>
+</footer>
+</div>
+</body>
+</html>
